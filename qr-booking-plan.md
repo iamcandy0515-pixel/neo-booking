@@ -48,8 +48,8 @@
 
 ## 🏁 Phase 4: Polish & Deploy
 
-- [ ] **4.1 Validation**: Run `checklist.py`. Fix MVVM violations. → Verify: Clean report.
-- [ ] **4.2 Deployment**: Push to GitHub, Link to Vercel. → Verify: Live URL accessible.
+- [x] **4.1 Validation**: Run `checklist.py`. Fix MVVM violations. → Verify: Clean report.
+- [x] **4.2 Deployment**: Push to GitHub, Link to Vercel. → Verify: Live URL accessible.
 
 ---
 
@@ -121,8 +121,8 @@
 - [x] **3.3 QR 생성기**: `react-qr-code` 추가. 현재 URL용 QR 코드 생성. → 확인: QR 스캔 정상 작동.
 
 ## 🏁 4단계: 다듬기 & 배포
-- [ ] **4.1 검증**: `checklist.py` 실행. MVVM 위반 사항 수정. → 확인: 클린 리포트.
-- [ ] **4.2 배포**: GitHub 푸시, Vercel 연동. → 확인: 라이브 URL 접속 가능.
+- [x] **4.1 검증**: `checklist.py` 실행. MVVM 위반 사항 수정. → 확인: 클린 리포트.
+- [x] **4.2 배포**: GitHub 푸시, Vercel 연동. → 확인: 라이브 URL 접속 가능.
 
 ---
 
