@@ -354,8 +354,10 @@ export default function BookingPage() {
                             <button 
                                 onClick={async () => {
                                     const input = (document.getElementById('cancel-phone-input') as HTMLInputElement).value;
-                                    const success = await actions.cancelBooking(state.lastCompletedBooking!.id, input, state.lastCompletedBooking!.phone);
-                                    if(success) actions.resetSuccessState();
+                                    if (state.lastCompletedBooking?.id && state.lastCompletedBooking?.phone) {
+                                        const success = await actions.cancelBooking(state.lastCompletedBooking.id, input, state.lastCompletedBooking.phone);
+                                        if(success) actions.resetSuccessState();
+                                    }
                                 }}
                                 className="bg-red-500/20 border border-red-500/50 text-red-500 px-3 py-2 text-xs font-bold hover:bg-red-500 hover:text-white transition-colors"
                             >
