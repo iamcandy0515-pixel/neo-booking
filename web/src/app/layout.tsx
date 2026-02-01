@@ -14,8 +14,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Antigravity Kit - AI Agent Capability Expansion Toolkit",
-  description: "A comprehensive collection of skills, rules, and workflows to supercharge AI coding assistants for Antigravity. 35+ skills, 57 UI Styles, production-ready workflows.",
+  title: "NeoBooking | 초간편 QR 예약",
+  description: "로그인 없이 3초 만에 예약하세요. 가장 빠르고 간편한 QR 예약 서비스.",
+  icons: {
+    icon: "/favicon.ico",
+  },
+  openGraph: {
+    title: "NeoBooking",
+    description: "로그인 없이 3초 만에 예약하세요.",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
@@ -24,7 +32,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="ko" suppressHydrationWarning>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
